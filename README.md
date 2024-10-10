@@ -27,7 +27,11 @@ The configuration file should be named `config.json` and should be structured as
 }
 
 ```
- `run` code
+ `run` code:
 ```cmd
 python main.py
-
+```
+make into `exe` executable. Without need of installing python:
+```cmd
+pyinstaller --onefile --add-data "config.json;." --add-data "files;files" main.py
+```
