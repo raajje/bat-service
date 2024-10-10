@@ -25,3 +25,9 @@ The configuration file should be named `config.json` and should be structured as
         }
     ]
 }
+
+```
+ `run` code
+```json
+python main.py
+
