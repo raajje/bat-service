@@ -3,7 +3,7 @@
     "dest_folder": "C:\\laragon\\www\\your-project-name",
     "services": [
         {
-            "service_name": "testfromnssm1",
+            "service_name": "serviceone",
             "source_bat_path": "files/server.bat"
         }
     ]
