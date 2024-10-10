@@ -1,0 +1,10 @@
+{
+    "nssm_folder": "files/",
+    "dest_folder": "C:\\laragon\\www\\your-project-name",
+    "services": [
+        {
+            "service_name": "testfromnssm1",
+            "source_bat_path": "files/server.bat"
+        }
+    ]
+}
